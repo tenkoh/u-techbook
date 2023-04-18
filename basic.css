@@ -26,7 +26,7 @@ main {
     display: grid;
     align-content: center;
     justify-content: center stretch;
-    gap 2rem;
+    gap: 1rem;
 }
 
 footer{
@@ -69,5 +69,22 @@ li a {
 }
 
 li a:hover {
-    background-color: #f1f1f1;
+    opacity: 0.5;
+}
+
+a.amazon{
+    background-color: #ff9900;
+    text-align: center;
+}
+
+a.mercari{
+    background-color: #4dc9ff;
+    color: #ffffff;
+    text-align: center;
+}
+
+a.paypay{
+    background-color: #ff0033;
+    color: #ffffff;
+    text-align: center;
 }
