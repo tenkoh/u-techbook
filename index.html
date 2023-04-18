@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="basic.css">
+    <title>U-TechBook</title>
+</head>
+<body>
+    <div class="container">
+        <h1>U-TechBook</h1>
+        <input type="text" id="searchInput" placeholder="検索したい書籍名を入力">
+        <ul>
+            <li><a class="amazon" id="amazonLink" href="#">Amazonアウトレット</a></li>
+            <li><a class="mercari" id="mercariLink" href="#">メルカリ</a></li>
+            <li><a class="paypaym" id="paypayLink" href="#">PayPayモール</a></li>
+        </ul>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('service-worker.js')
+              .then((registration) => {
+                console.log('Service Worker登録成功:', registration.scope);
+              })
+              .catch((error) => {
+                console.log('Service Worker登録失敗:', error);
+              });
+          });
+        }
+    </script>
+</body>
+</html>
