@@ -10,8 +10,9 @@ function updateLinks() {
   const mercariLink = `https://jp.mercari.com/search?keyword=${
     encodeURIComponent(keyword)
   }&status=on_sale&category_id=674`;
-  const paypayLink = "https://paypaymall.yahoo.co.jp/search?p=" +
-    encodeURIComponent(keyword) + "&cid=465";
+  const paypayLink = `https://paypayfleamarket.yahoo.co.jp/search/${
+    encodeURIComponent(keyword)
+  }?categoryIds=10002%2C10604&open=1`;
 
   document.getElementById("amazonLink").href = amazonLink;
   document.getElementById("mercariLink").href = mercariLink;
