@@ -10,15 +10,24 @@
     <title>U-TechBook</title>
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>U-TechBook</h1>
+    </header>
+    <main>
+        <h2>About</h2>
+        <p id="description">
+            欲しい技術書を懐が寂しいときにも買いたいときに使うサービスです。
+            各外部サイトのコンピュータ・IT書籍ジャンルの中でキーワードを検索した結果に遷移します。
+        </p>
+        <h2>Search</h2>
         <input type="text" id="searchInput" placeholder="検索したい書籍名を入力">
-        <ul>
+        <ul class="links">
             <li><a class="amazon" id="amazonLink" href="#" target="_blank">Amazonアウトレット</a></li>
             <li><a class="mercari" id="mercariLink" href="#" target=_blank>メルカリ</a></li>
             <li><a class="paypaym" id="paypayLink" href="#" target=_blank>PayPayフリマ</a></li>
         </ul>
-    </div>
+    </main>
+    <footer>@tenkoh</footer>
 
     <script src="main.js"></script>
     <script>
