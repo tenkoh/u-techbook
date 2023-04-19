@@ -13,4 +13,8 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+node_modules/
+.firebase/
+
+# explorer or finder's file
 .DS_Store
