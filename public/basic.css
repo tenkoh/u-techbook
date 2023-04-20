@@ -43,6 +43,10 @@ h1 {
     font-weight: 700;
 }
 
+p {
+    line-height: 1.5;
+}
+
 input[type="search"] {
     padding: 12px 20px;
     box-sizing: border-box;
@@ -77,19 +81,20 @@ li a:hover {
     opacity: 0.5;
 }
 
+a {
+    text-align: center;
+}
+
 a.amazon{
     background-color: #ff9900;
-    text-align: center;
 }
 
 a.mercari{
     background-color: #4dc9ff;
     color: #ffffff;
-    text-align: center;
 }
 
 a.paypay{
     background-color: #ff0033;
     color: #ffffff;
-    text-align: center;
 }
