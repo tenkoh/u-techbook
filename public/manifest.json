@@ -1,7 +1,7 @@
 {
-  "name": "コンピュータ書籍検索",
-  "short_name": "書籍検索",
-  "description": "Amazonアウトレット、メルカリ、PayPayモールのコンピュータ書籍を検索するアプリ",
+  "name": "U-TechBook",
+  "short_name": "U-TechBook",
+  "description": "Amazonアウトレット、メルカリ、PayPayフリマのコンピュータ書籍を検索するアプリ",
   "lang": "ja",
   "start_url": "/",
   "display": "standalone",
