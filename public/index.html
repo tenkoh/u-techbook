@@ -36,30 +36,40 @@
         <h1>U-TechBook</h1>
     </header>
     <main>
-        <h2>About</h2>
-        <details>
-            <summary>このサイトについて</summary>
-            <p id="description">
-                懐が寂しいときに技術書を買うのに苦労したので、お得に購入できるサイトでの検索ツールを作りました。
-                各外部サイトのコンピュータ・IT書籍ジャンルの中でキーワードを検索した結果に遷移します。
-            </p>
-            <p id="note">
-                各リンク先は当サイトとは関係ありません。万が一各リンク先で不利益を被っても当サイトはなんら責任を負いません。
-                また、各リンク先のサイトの仕様変更によりリンク先のページが表示されない場合があります。
-            </p>
-        </details>
-        <h2>Search</h2>
-        <input type="search" id="searchInput" placeholder="検索したい書籍名を入力">
-        <ul class="links">
-            <li><a class="amazon" id="amazonLink" href="#" target="_blank" rel="nofollow">Amazonアウトレット</a></li>
-            <li><a class="mercari" id="mercariLink" href="#" target=_blank rel=nofollow>メルカリ</a></li>
-            <li><a class="paypay" id="paypayLink" href="#" target=_blank rel=nofollow>PayPayフリマ</a></li>
-        </ul>
+        <div class="wrapper main-wrapper">
+            <h2>About</h2>
+            <details>
+                <summary>このサイトについて</summary>
+                <p id="description">
+                    懐が寂しいときに技術書を買うのに苦労したので、お得に購入できるサイトでの検索ツールを作りました。
+                    各外部サイトのコンピュータ・IT書籍ジャンルの中でキーワードを検索した結果に遷移します。
+                </p>
+                <p id="note">
+                    各リンク先は当サイトとは関係ありません。万が一各リンク先で不利益を被っても当サイトはなんら責任を負いません。
+                    また、各リンク先のサイトの仕様変更によりリンク先のページが表示されない場合があります。
+                </p>
+            </details>
+            <h2>Search</h2>
+            <input type="search" id="searchInput" placeholder="検索したい書籍名を入力">
+            <ul class="links">
+                <li><a class="amazon" id="amazonLink" href="#" target="_blank" rel="nofollow">Amazonアウトレット</a></li>
+                <li><a class="mercari" id="mercariLink" href="#" target=_blank rel=nofollow>メルカリ</a></li>
+                <li><a class="paypay" id="paypayLink" href="#" target=_blank rel=nofollow>PayPayフリマ</a></li>
+            </ul>
+        </div>
+        <div>
+            <p class="ad-title">広告：このサイトはAmazonアソシエイトプログラムに参加しています。</p>
+            <div class="wrapper ad-wrapper">
+                <div class="ad-item">
+                </div>
+                <div class="ad-item">
+                </div>
+                <div class="ad-item">
+                </div>
+            </div>
+        </div>
     </main>
-    <div class="ad-area">
-        <a href="https://www.amazon.co.jp/Linux%E3%81%A7%E5%8B%95%E3%81%8B%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6TCP-IP%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%85%A5%E9%96%80-%E3%82%82%E3%81%BF%E3%81%98%E3%81%82%E3%82%81-ebook/dp/B085BG8CH5?pd_rd_w=3bWNt&content-id=amzn1.sym.ab53e8b4-6265-4e72-a842-b106c7f4f2d3&pf_rd_p=ab53e8b4-6265-4e72-a842-b106c7f4f2d3&pf_rd_r=924AXE9T4SCN9NSQAPYX&pd_rd_wg=ZZVao&pd_rd_r=cf6de740-e2c0-43af-8142-b59984148367&pd_rd_i=B085BG8CH5&linkCode=li2&tag=aafox88-22&linkId=4bcdb92bb410f0cd897ddd7e84d95f30&language=ja_JP&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B085BG8CH5&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=aafox88-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=aafox88-22&language=ja_JP&l=li2&o=9&a=B085BG8CH5" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-    </div>
-    <footer>@tenkoh</footer>
+    <footer>tenkoh@2023</footer>
 
     <script src="bundle.js"></script>
     <script>
