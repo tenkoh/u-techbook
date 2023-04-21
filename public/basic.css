@@ -11,10 +11,10 @@ body {
     display: grid;
     align-content: center;
     justify-content: stretch;
+    gap: 1rem;
 }
 
 header{
-    padding: 1rem;
     justify-self: center;
 }
 
@@ -35,7 +35,6 @@ main {
 }
 
 footer{
-    padding: 1rem;
     justify-self: center;
 }
 
@@ -97,4 +96,17 @@ a.mercari{
 a.paypay{
     background-color: #ff0033;
     color: #ffffff;
+}
+
+.ad-area{
+    width: 80%;
+    max-width: 800px;
+    min-width: 280px;
+    justify-self: center;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    gap: 0.5rem;
+    grid-template-columns: minmax(240px, 0.8fr);
 }
