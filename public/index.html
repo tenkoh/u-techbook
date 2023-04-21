@@ -36,27 +36,40 @@
         <h1>U-TechBook</h1>
     </header>
     <main>
-        <h2>About</h2>
-        <details>
-            <summary>このサイトについて</summary>
-            <p id="description">
-                懐が寂しいときに技術書を買うのに苦労したので、お得に購入できるサイトでの検索ツールを作りました。
-                各外部サイトのコンピュータ・IT書籍ジャンルの中でキーワードを検索した結果に遷移します。
-            </p>
-            <p id="note">
-                各リンク先は当サイトとは関係ありません。万が一各リンク先で不利益を被っても当サイトはなんら責任を負いません。
-                また、各リンク先のサイトの仕様変更によりリンク先のページが表示されない場合があります。
-            </p>
-        </details>
-        <h2>Search</h2>
-        <input type="search" id="searchInput" placeholder="検索したい書籍名を入力">
-        <ul class="links">
-            <li><a class="amazon" id="amazonLink" href="#" target="_blank" rel="nofollow">Amazonアウトレット</a></li>
-            <li><a class="mercari" id="mercariLink" href="#" target=_blank rel=nofollow>メルカリ</a></li>
-            <li><a class="paypay" id="paypayLink" href="#" target=_blank rel=nofollow>PayPayフリマ</a></li>
-        </ul>
+        <div class="wrapper main-wrapper">
+            <h2>About</h2>
+            <details>
+                <summary>このサイトについて</summary>
+                <p id="description">
+                    懐が寂しいときに技術書を買うのに苦労したので、お得に購入できるサイトでの検索ツールを作りました。
+                    各外部サイトのコンピュータ・IT書籍ジャンルの中でキーワードを検索した結果に遷移します。
+                </p>
+                <p id="note">
+                    各リンク先は当サイトとは関係ありません。万が一各リンク先で不利益を被っても当サイトはなんら責任を負いません。
+                    また、各リンク先のサイトの仕様変更によりリンク先のページが表示されない場合があります。
+                </p>
+            </details>
+            <h2>Search</h2>
+            <input type="search" id="searchInput" placeholder="検索したい書籍名を入力">
+            <ul class="links">
+                <li><a class="amazon" id="amazonLink" href="#" target="_blank" rel="nofollow">Amazonアウトレット</a></li>
+                <li><a class="mercari" id="mercariLink" href="#" target=_blank rel=nofollow>メルカリ</a></li>
+                <li><a class="paypay" id="paypayLink" href="#" target=_blank rel=nofollow>PayPayフリマ</a></li>
+            </ul>
+        </div>
+        <div>
+            <p class="ad-title">広告：このサイトはAmazonアソシエイトプログラムに参加しています。</p>
+            <div class="wrapper ad-wrapper">
+                <div class="ad-item">
+                </div>
+                <div class="ad-item">
+                </div>
+                <div class="ad-item">
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>@tenkoh</footer>
+    <footer>tenkoh@2023</footer>
 
     <script src="bundle.js"></script>
     <script>

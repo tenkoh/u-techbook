@@ -9,33 +9,62 @@ body {
     min-height: 100vh;
 
     display: grid;
-    align-content: center;
+    align-content: start;
     justify-content: stretch;
+    gap: 1rem;
+    grid-template-columns: 1fr;
 }
 
 header{
-    padding: 1rem;
     justify-self: center;
 }
 
 main {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 80%;
     max-width: 800px;
     min-width: 280px;
     justify-self: center;
 
     display: grid;
-    align-content: center;
-    justify-content: center;
     gap: 0.5rem;
-    grid-template-columns: minmax(240px, 0.8fr);
+    grid-template-columns: 1fr;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+/* メインコンテンツはグリッド内の中央に配置 */
+.main-wrapper{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.ad-wrapper{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+p.ad-title{
+    color: #9e9e9e;;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.ad-item{
+    justify-self: center;
 }
 
 footer{
-    padding: 1rem;
+    font-size: 0.8rem;
+    color: #9e9e9e;
     justify-self: center;
 }
 
@@ -52,6 +81,8 @@ input[type="search"] {
     padding: 12px 20px;
     border: 2px solid #ccc;
     border-radius: 4px;
+    /* implicit width is important for Safari */
+    width: 100%;
 }
 
 ul.links {
@@ -98,3 +129,4 @@ a.paypay{
     background-color: #ff0033;
     color: #ffffff;
 }
+
