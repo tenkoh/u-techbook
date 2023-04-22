@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "firebase": "^9.20.0"
+    "firebase": "^9.20.0",
+    "vanilla-lazyload": "^17.8.3"
   },
   "devDependencies": {
     "webpack": "^5.80.0",

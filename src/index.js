@@ -16,6 +16,9 @@ function updateLinks() {
   document.getElementById("paypayLink").href = paypayLink;
 }
 
+////////////////////
+// setup firebase
+////////////////////
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
@@ -29,6 +32,15 @@ const firebaseConfig = {
   measurementId: "G-LJN7YGFPYE"
 };
 
-// Initialize Firebase
+// Initialize
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+
+////////////////////
+// setup lazyload
+////////////////////
+import LazyLoad from "vanilla-lazyload";
+const lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+});
